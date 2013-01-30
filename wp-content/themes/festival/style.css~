@@ -1,0 +1,39 @@
+/*
+Theme Name: Festival
+Theme URI: http://example.com/
+Description: Thème enfant du thème Twenty Twelve
+Author: THENOT
+Author URI: http://example.com/about/
+Template: twentytwelve
+Version: 0.1.0
+*/
+
+@import url("../twentytwelve/style.css");
+
+#page{
+	background: orange;
+}
+
+/* ------ Menu ----- */
+#site-navigation li{
+	width: 160px;
+	text-align: center;
+	margin-right:-4px;
+}
+
+#site-navigation li a{
+	color: white;
+}
+
+#site-navigation li a:hover{
+	text-decoration: underline;
+}
+
+.fg-rouge {background-color: #ff0000; }
+.fg-orange {background-color: #E8A711; }
+.fg-jaune {background-color: #E8D911; }
+.fg-vert {background-color: #18C112; }
+.fg-bleu {background-color: #127BC1; }
+.fg-indigo {background-color: #4B0082; }
+
+
